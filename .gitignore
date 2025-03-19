@@ -1,4 +1,28 @@
-Pods/Pods.xcodeproj/xcuserdata
-Pods
+# Xcode
+build/
+*.pbxuser
+*.mode1v3
+*.perspectivev3
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Temporary files
+*.swp
 .DS_Store
-tintintTest.xcodeproj/xcuserdata/woody.xcuserdatad
+*.log
+
+# Sensitive information
+*.p12
+*.mobileprovision
+Secrets.xcconfig
+
+# Build products
+*.app
+*.dSYM

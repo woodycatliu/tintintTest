@@ -8,8 +8,10 @@ target 'tintintTest' do
   # Pods for tintintTest
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'RxDataSources'
   pod 'SDWebImage'
   pod 'SnapKit'
+  pod 'RxAlamofire'
 
 
   target 'tintintTestTests' do
