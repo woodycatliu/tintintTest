@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2387E8C2998BD7AA11AC7AAC /* Pods_tintintTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2D71B81676FB523AF13665 /* Pods_tintintTestTests.framework */; };
+		DFA84513A59E62FBA6DF81CE /* Pods_tintintTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A387FDD23F2823453D17761 /* Pods_tintintTest.framework */; };
+		F4FCDE8B2699253FFE378D99 /* Pods_tintintTest_tintintTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4ED9315C79765707D02FF0 /* Pods_tintintTest_tintintTestUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFBB4DA42D8AB70000AE3A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFBB4D852D8AB6FF00AE3A5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBB4D8C2D8AB6FF00AE3A5F;
+			remoteInfo = tintintTest;
+		};
+		EFBB4DAE2D8AB70000AE3A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFBB4D852D8AB6FF00AE3A5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBB4D8C2D8AB6FF00AE3A5F;
+			remoteInfo = tintintTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0861D64407936B13CBA3AF0A /* Pods-tintintTest-tintintTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tintintTest-tintintTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-tintintTest-tintintTestUITests/Pods-tintintTest-tintintTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B4ED9315C79765707D02FF0 /* Pods_tintintTest_tintintTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tintintTest_tintintTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E338BE3DEF7016C729DA7A7 /* Pods-tintintTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tintintTest.debug.xcconfig"; path = "Target Support Files/Pods-tintintTest/Pods-tintintTest.debug.xcconfig"; sourceTree = "<group>"; };
+		44499DACA4C06382CCC4FA65 /* Pods-tintintTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tintintTest.release.xcconfig"; path = "Target Support Files/Pods-tintintTest/Pods-tintintTest.release.xcconfig"; sourceTree = "<group>"; };
+		4E2D71B81676FB523AF13665 /* Pods_tintintTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tintintTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A387FDD23F2823453D17761 /* Pods_tintintTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tintintTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D027F53743B32C3CFA72EC4A /* Pods-tintintTest-tintintTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tintintTest-tintintTestUITests.release.xcconfig"; path = "Target Support Files/Pods-tintintTest-tintintTestUITests/Pods-tintintTest-tintintTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0D6D20511F72861F564BAAF /* Pods-tintintTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tintintTestTests.debug.xcconfig"; path = "Target Support Files/Pods-tintintTestTests/Pods-tintintTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFBB4D8D2D8AB6FF00AE3A5F /* tintintTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tintintTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBB4DA32D8AB70000AE3A5F /* tintintTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tintintTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBB4DAD2D8AB70000AE3A5F /* tintintTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tintintTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8BB0E3A106677ACC06B676 /* Pods-tintintTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tintintTestTests.release.xcconfig"; path = "Target Support Files/Pods-tintintTestTests/Pods-tintintTestTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EFBB4DB52D8AB70000AE3A5F /* Exceptions for "tintintTest" folder in "tintintTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EFBB4D8C2D8AB6FF00AE3A5F /* tintintTest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EFBB4D8F2D8AB6FF00AE3A5F /* tintintTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EFBB4DB52D8AB70000AE3A5F /* Exceptions for "tintintTest" folder in "tintintTest" target */,
+			);
+			path = tintintTest;
+			sourceTree = "<group>";
+		};
+		EFBB4DA62D8AB70000AE3A5F /* tintintTestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = tintintTestTests;
+			sourceTree = "<group>";
+		};
+		EFBB4DB02D8AB70000AE3A5F /* tintintTestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = tintintTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFBB4D8A2D8AB6FF00AE3A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA84513A59E62FBA6DF81CE /* Pods_tintintTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBB4DA02D8AB70000AE3A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2387E8C2998BD7AA11AC7AAC /* Pods_tintintTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBB4DAA2D8AB70000AE3A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FCDE8B2699253FFE378D99 /* Pods_tintintTest_tintintTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4966654719D0EC704AFF845 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E338BE3DEF7016C729DA7A7 /* Pods-tintintTest.debug.xcconfig */,
+				44499DACA4C06382CCC4FA65 /* Pods-tintintTest.release.xcconfig */,
+				0861D64407936B13CBA3AF0A /* Pods-tintintTest-tintintTestUITests.debug.xcconfig */,
+				D027F53743B32C3CFA72EC4A /* Pods-tintintTest-tintintTestUITests.release.xcconfig */,
+				D0D6D20511F72861F564BAAF /* Pods-tintintTestTests.debug.xcconfig */,
+				FB8BB0E3A106677ACC06B676 /* Pods-tintintTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E89C7D76A7C940527BD92170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A387FDD23F2823453D17761 /* Pods_tintintTest.framework */,
+				1B4ED9315C79765707D02FF0 /* Pods_tintintTest_tintintTestUITests.framework */,
+				4E2D71B81676FB523AF13665 /* Pods_tintintTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFBB4D842D8AB6FF00AE3A5F = {
+			isa = PBXGroup;
+			children = (
+				EFBB4D8F2D8AB6FF00AE3A5F /* tintintTest */,
+				EFBB4DA62D8AB70000AE3A5F /* tintintTestTests */,
+				EFBB4DB02D8AB70000AE3A5F /* tintintTestUITests */,
+				EFBB4D8E2D8AB6FF00AE3A5F /* Products */,
+				A4966654719D0EC704AFF845 /* Pods */,
+				E89C7D76A7C940527BD92170 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFBB4D8E2D8AB6FF00AE3A5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB4D8D2D8AB6FF00AE3A5F /* tintintTest.app */,
+				EFBB4DA32D8AB70000AE3A5F /* tintintTestTests.xctest */,
+				EFBB4DAD2D8AB70000AE3A5F /* tintintTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFBB4D8C2D8AB6FF00AE3A5F /* tintintTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBB4DB62D8AB70000AE3A5F /* Build configuration list for PBXNativeTarget "tintintTest" */;
+			buildPhases = (
+				ED48DFFCAA45AB02B431980E /* [CP] Check Pods Manifest.lock */,
+				EFBB4D892D8AB6FF00AE3A5F /* Sources */,
+				EFBB4D8A2D8AB6FF00AE3A5F /* Frameworks */,
+				EFBB4D8B2D8AB6FF00AE3A5F /* Resources */,
+				26ED56397A10E924330B205B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EFBB4D8F2D8AB6FF00AE3A5F /* tintintTest */,
+			);
+			name = tintintTest;
+			productName = tintintTest;
+			productReference = EFBB4D8D2D8AB6FF00AE3A5F /* tintintTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFBB4DA22D8AB70000AE3A5F /* tintintTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBB4DBB2D8AB70000AE3A5F /* Build configuration list for PBXNativeTarget "tintintTestTests" */;
+			buildPhases = (
+				0603EDFCBEBD9810538BBF6D /* [CP] Check Pods Manifest.lock */,
+				EFBB4D9F2D8AB70000AE3A5F /* Sources */,
+				EFBB4DA02D8AB70000AE3A5F /* Frameworks */,
+				EFBB4DA12D8AB70000AE3A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFBB4DA52D8AB70000AE3A5F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFBB4DA62D8AB70000AE3A5F /* tintintTestTests */,
+			);
+			name = tintintTestTests;
+			productName = tintintTestTests;
+			productReference = EFBB4DA32D8AB70000AE3A5F /* tintintTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFBB4DAC2D8AB70000AE3A5F /* tintintTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBB4DBE2D8AB70000AE3A5F /* Build configuration list for PBXNativeTarget "tintintTestUITests" */;
+			buildPhases = (
+				50E55D78785EC5D87EDFAE18 /* [CP] Check Pods Manifest.lock */,
+				EFBB4DA92D8AB70000AE3A5F /* Sources */,
+				EFBB4DAA2D8AB70000AE3A5F /* Frameworks */,
+				EFBB4DAB2D8AB70000AE3A5F /* Resources */,
+				847D48D48BB2870069AE5426 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFBB4DAF2D8AB70000AE3A5F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFBB4DB02D8AB70000AE3A5F /* tintintTestUITests */,
+			);
+			name = tintintTestUITests;
+			productName = tintintTestUITests;
+			productReference = EFBB4DAD2D8AB70000AE3A5F /* tintintTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFBB4D852D8AB6FF00AE3A5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					EFBB4D8C2D8AB6FF00AE3A5F = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					EFBB4DA22D8AB70000AE3A5F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = EFBB4D8C2D8AB6FF00AE3A5F;
+					};
+					EFBB4DAC2D8AB70000AE3A5F = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = EFBB4D8C2D8AB6FF00AE3A5F;
+					};
+				};
+			};
+			buildConfigurationList = EFBB4D882D8AB6FF00AE3A5F /* Build configuration list for PBXProject "tintintTest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFBB4D842D8AB6FF00AE3A5F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EFBB4D8E2D8AB6FF00AE3A5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFBB4D8C2D8AB6FF00AE3A5F /* tintintTest */,
+				EFBB4DA22D8AB70000AE3A5F /* tintintTestTests */,
+				EFBB4DAC2D8AB70000AE3A5F /* tintintTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFBB4D8B2D8AB6FF00AE3A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBB4DA12D8AB70000AE3A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBB4DAB2D8AB70000AE3A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0603EDFCBEBD9810538BBF6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tintintTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26ED56397A10E924330B205B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tintintTest/Pods-tintintTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tintintTest/Pods-tintintTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tintintTest/Pods-tintintTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50E55D78785EC5D87EDFAE18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tintintTest-tintintTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		847D48D48BB2870069AE5426 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tintintTest-tintintTestUITests/Pods-tintintTest-tintintTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tintintTest-tintintTestUITests/Pods-tintintTest-tintintTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tintintTest-tintintTestUITests/Pods-tintintTest-tintintTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED48DFFCAA45AB02B431980E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tintintTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFBB4D892D8AB6FF00AE3A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBB4D9F2D8AB70000AE3A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBB4DA92D8AB70000AE3A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFBB4DA52D8AB70000AE3A5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBB4D8C2D8AB6FF00AE3A5F /* tintintTest */;
+			targetProxy = EFBB4DA42D8AB70000AE3A5F /* PBXContainerItemProxy */;
+		};
+		EFBB4DAF2D8AB70000AE3A5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBB4D8C2D8AB6FF00AE3A5F /* tintintTest */;
+			targetProxy = EFBB4DAE2D8AB70000AE3A5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFBB4DB72D8AB70000AE3A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E338BE3DEF7016C729DA7A7 /* Pods-tintintTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMB28F9R4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tintintTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tintint.test.tintintTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFBB4DB82D8AB70000AE3A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44499DACA4C06382CCC4FA65 /* Pods-tintintTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMB28F9R4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tintintTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tintint.test.tintintTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFBB4DB92D8AB70000AE3A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFBB4DBA2D8AB70000AE3A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFBB4DBC2D8AB70000AE3A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D6D20511F72861F564BAAF /* Pods-tintintTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMB28F9R4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tintint.test.tintintTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tintintTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tintintTest";
+			};
+			name = Debug;
+		};
+		EFBB4DBD2D8AB70000AE3A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8BB0E3A106677ACC06B676 /* Pods-tintintTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMB28F9R4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tintint.test.tintintTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tintintTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tintintTest";
+			};
+			name = Release;
+		};
+		EFBB4DBF2D8AB70000AE3A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0861D64407936B13CBA3AF0A /* Pods-tintintTest-tintintTestUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMB28F9R4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tintint.test.tintintTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tintintTest;
+			};
+			name = Debug;
+		};
+		EFBB4DC02D8AB70000AE3A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D027F53743B32C3CFA72EC4A /* Pods-tintintTest-tintintTestUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HMB28F9R4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tintint.test.tintintTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tintintTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFBB4D882D8AB6FF00AE3A5F /* Build configuration list for PBXProject "tintintTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBB4DB92D8AB70000AE3A5F /* Debug */,
+				EFBB4DBA2D8AB70000AE3A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBB4DB62D8AB70000AE3A5F /* Build configuration list for PBXNativeTarget "tintintTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBB4DB72D8AB70000AE3A5F /* Debug */,
+				EFBB4DB82D8AB70000AE3A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBB4DBB2D8AB70000AE3A5F /* Build configuration list for PBXNativeTarget "tintintTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBB4DBC2D8AB70000AE3A5F /* Debug */,
+				EFBB4DBD2D8AB70000AE3A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBB4DBE2D8AB70000AE3A5F /* Build configuration list for PBXNativeTarget "tintintTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBB4DBF2D8AB70000AE3A5F /* Debug */,
+				EFBB4DC02D8AB70000AE3A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFBB4D852D8AB6FF00AE3A5F /* Project object */;
+}
